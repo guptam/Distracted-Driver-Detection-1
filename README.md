@@ -1,26 +1,28 @@
-# Machine-Learning-Capstone-Project
-Machine Learning Capstone Project - Udacity MLND(State Farm Distracted Driver Detection)
+# Distracted Driver Detection
 
-1.Following are the file descriptions and URL’s from which the data can be obtained :
-```
-• imgs.zip - zipped folder of all (train/test) images
-• sample_submission.csv - a sample submission file in the correct format
-• driver_imgs_list.csv - a list of training images, their subject (driver) id, and class id
+## Project Overview
 
-https://www.kaggle.com/c/state-farm-distracted-driver-detection/download/driver_imgs_list.csv.zip
-https://www.kaggle.com/c/state-farm-distracted-driver-detection/download/imgs.zip
-https://www.kaggle.com/c/state-farm-distracted-driver-detection/download/sample_submission.csv.zip
+According to the CDC motor vehicle safety division, one in five car
+accidents is caused by a distracted driver. Sadly, this translates to 425,000
+people injured and 3,000 people killed by distracted driving every year.
 
-```
+In this project, I have created and refined machine learning models to detect
+what the driver is doing in a car given driver images. This is done by
+predicting the likelihood of what the driver is doing in each picture. 
 
+## Problem Statement
 
-2.Following are the details of Software environments with version details :
-```
-• Python 3.6.0 :: Anaconda 4.3.1 (64-bit)
-• Tensorflow 1.1.0
-• Keras 2.0.4
-```
+Given a dataset of 2D dashboard camera images, an algorithm needs to be
+developed  to classify each driver's behaviour and determine if they are
+driving attentively, wearing their seatbelt, or taking a selfie with their friends in
+the backseat etc..? This can then be used to automatically detect drivers
+engaging in distracted behaviours from dashboard cameras.
 
-3. Udacity Capstone Project Review Link
-	
-	https://review.udacity.com/?utm_campaign=ret_000_auto_ndxxx_submission-reviewed&utm_source=blueshift&utm_medium=email&utm_content=reviewsapp-submission-reviewed&bsft_clkid=23773f41-0317-4ce9-be43-b03d7f3f8b4b&bsft_uid=1d9d9128-0585-40e9-9fb9-7cd32b64185b&bsft_mid=df2e49ec-f22f-4dbf-928a-24441a9dc0e8&bsft_eid=6f154690-7543-4582-9be7-e397af208dbd&bsft_txnid=6decf2fb-0c4c-431d-a218-9c82b2686a02#!/reviews/1329381
+Following are needed tasks for the development of the algorithm:
+
+1. Download and preprocess the driver images
+
+2. Build and train the model to classify the driver images
+
+3. Test the model and further improve the model using different techniques.
+
