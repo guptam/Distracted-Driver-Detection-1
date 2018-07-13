@@ -65,4 +65,9 @@ The 10 classes to predict are:
 There are 102150 total images. Of these 17939 are training images,4485
 are validation images and 79726 are training images. All the training,
 validation images belong to the 10 categories shown above.
+The images are
+coloured and have 640 x 480 pixels each as shown below
 
+![](images/image1.png)
+
+![](images/image2.png)
